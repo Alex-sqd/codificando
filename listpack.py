@@ -4,9 +4,9 @@ args = [inicio, fin]
 lista = list(range(*args))
 print (f'Lista inicial (valores inicial y final): {args}')
 print (f'Lista desplegada desde los valores inicial al final: {lista}')
-print ('Observa que como en otros casos, el valor final no se alcanza')
+print ('Observa que el valor final no se alcanza')
 print ('Para corregirlo podemos hacer una "trampa"...')
 fin2 = fin + 1
 args2 = [inicio, fin2]
 lista2 = list(range(*args2))
-print ('Sumo 1 al valor final y vuelvo a desplegar la lista:', lista2)
+print ('Sumo 1 al valor final y vuelvo a desplegar la lista y ahora sí alcanza el valor final: ', lista2)
